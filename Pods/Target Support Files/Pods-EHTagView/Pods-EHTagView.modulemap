@@ -1,0 +1,6 @@
+framework module Pods_EHTagView {
+  umbrella header "Pods-EHTagView-umbrella.h"
+
+  export *
+  module * { export * }
+}
