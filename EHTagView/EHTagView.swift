@@ -193,7 +193,7 @@ class EHTagView: UIView {
                     }
                 } else {
                     //判断按钮是否超过屏幕的宽
-                    if titleBtnX + bgViewWidth > (tagViewW == 0 ? frame.width : tagViewW) - (padding * 2) {
+                    if titleBtnX + bgViewWidth > (tagViewW == 0 ? frame.width : tagViewW) - padding {
                         titleBtnX = padding
                         if i != 0 {
                             titleBtnY += titleBtnH + minimumLineSpacing
